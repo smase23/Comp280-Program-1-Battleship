@@ -26,8 +26,8 @@ public class Comp280_Program1 {
         b.displayBoard();
         b.addShip("destroyer", "F1", "vertical");
         b.displayBoard();
-         b.addShip("battleship", "A1", "horizontal");
-        b.displayBoard();
+//         b.addShip("battleship", "A1", "horizontal");
+//        b.displayBoard();
         
     }
     

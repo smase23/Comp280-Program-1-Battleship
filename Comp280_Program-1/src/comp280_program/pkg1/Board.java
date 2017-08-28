@@ -32,6 +32,11 @@ public class Board {
     }
     
     public boolean addShip(String ship, String location, String direction){
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("What type of ship? Submarine:2 units, Destroyer:3 units, Cruiser:4 units");
+//        ship = input.next().toLowerCase();
+//        System.out.println("What location will the ship be placed? Ex) A5");
+//        location = input.next().toUpperCase();
         char x = location.charAt(0);
         char y = location.charAt(1);
         int xCord = 0;
